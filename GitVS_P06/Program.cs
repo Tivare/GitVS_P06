@@ -5,6 +5,7 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
+            Console.WriteLine($"12 + 23 = {Operations.Sum(12,23)}");
         }
     }
 }
